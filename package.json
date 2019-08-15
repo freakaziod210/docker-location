@@ -1,26 +1,28 @@
 {
-  "name": "docker-location",
-  "version": "1.0.0",
-  "description": "Location service wrapped in Docker",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/freakaziod210/docker-location.git"
-  },
-  "keywords": [
-    "docker",
-    "location"
-  ],
-  "author": "Pablo Arcia",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/freakaziod210/docker-location/issues"
-  },
-  "homepage": "https://github.com/freakaziod210/docker-location#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+    "name": "docker-location",
+    "version": "1.0.0",
+    "description": "Location service wrapped in Docker",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/freakaziod210/docker-location.git"
+    },
+    "keywords": [
+        "docker",
+        "location"
+    ],
+    "author": "Pablo Arcia",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/freakaziod210/docker-location/issues"
+    },
+    "homepage": "https://github.com/freakaziod210/docker-location#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "nodemon": "^1.19.1"
+    }
 }
