@@ -2,7 +2,7 @@ const express = require("express");
 const { getLocationFromIp } = require("./service");
 require("dotenv").config();
 
-const { PORT, IPSTACK_KEY } = process.env;
+const { IPSTACK_KEY } = process.env;
 const app = express();
 
 app.enable("trust proxy");
@@ -15,4 +15,4 @@ app.get("/", async (req, res) => {
     res.send(`You are in ${country_flag_emoji}`);
 });
 
-app.listen(PORT, () => console.log(`App listening on port ${PORT}`));
+app.listen(3000, () => console.log(`App listening on port ${3000}`));
